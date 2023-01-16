@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 900px;
+  margin: 0px 0px 0px 0px;
+  bottom: 0px;
+  background: linear-gradient(180deg, #1c1c1c, #000000) fixed;
+}
+
+/*NAVIGATION BAR*/
+.navigation {
+  font-family: "Josefin Sans", sans-serif;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 5px 25px 15px 25px;
+}
+/*logo*/
+.logo {
+  color: black;
+  text-decoration: none;
+  font-size: 28px;
+  height: 70px;
+}
+
+.logo img {
+  height: 70px;
+  width: auto;
+  margin-top: 18px;
+  margin-left: 0px;
+}
+
+/*all headings*/
+.menu {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  z-index: 1;
+  transition: 0.5s;
+}
+
+.list-item {
+  padding: 11px 20px 0px;
+  margin: 0 0 0 30px;
+  list-style: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.list-item a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.list-item a:hover {
+  color: white;
+  transition: 0.3s;
+  text-shadow: 0px 0.9px rgb(255, 255, 255);
+}
+
+.name {
+  color: transparent;
+  background: conic-gradient(
+    #c15cff 12%,
+    #ff5454 12%,
+    #99e1d9 33%,
+    #e7fbbe 33%,
+    #7692ff 55%,
+    #7cffc4 55%,
+    #2a9d8f 70%,
+    #dd9296 70%,
+    #6b2d5c 87%,
+    #f19a3e 87%
+  );
+  background-size: 50%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-size: 145px;
+  text-align: center;
+}
+
+.name p {
+  border: none;
+  margin-top: 7%;
+  margin-bottom: 6%;
+}
+
+.desc {
+  text-align: center;
+  font-family: "Perpetua", fantasy;
+  font-size: 22px;
+  color: white;
+}
+
+.secret {
+  font-family: "Perpetua", fantasy;
+  font-size: 35px;
+  color: white;
+  text-align: right;
+  display: none;
+}
